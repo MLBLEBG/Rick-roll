@@ -4,7 +4,7 @@ cd %tmp% && copy con rickyou.vbs
 While true
 Dim oPlayer
 Set oPlayer = CreateObject("WMPlayer.OCX")
-oPlayer.URL = "http://tinyurl.com/s63ve48"
+oPlayer.URL = "https://www.mixcloud.com/MLB_11/glory-glory-man-united/"
 oPlayer.controls.play
 While oPlayer.playState <> 1 ' 1 = Stopped
 WScript.Sleep 100
